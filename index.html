@@ -31,7 +31,7 @@ body {
   background: var(--parchment);
   color: var(--text);
   font-family: 'Outfit', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.7;
   overflow-x: hidden;
 }
@@ -49,7 +49,7 @@ nav {
   display: flex; justify-content: space-between; align-items: center;
   padding: 0 60px; height: 64px;
   background: rgba(250,247,242,0.93);
-  backdrop-filter: blur(14px);
+  backdrop-filter: blur(16px);
   border-bottom: 1px solid var(--border);
 }
 .nav-logo {
@@ -61,7 +61,7 @@ nav {
 .nav-links { display: flex; gap: 36px; list-style: none; }
 .nav-links a {
   color: var(--muted); text-decoration: none;
-  font-size: 12px; font-weight: 500;
+  font-size: 16px; font-weight: 500;
   letter-spacing: 0.08em; text-transform: uppercase;
   transition: color 0.2s;
 }
@@ -71,7 +71,7 @@ nav {
   font-size: 11px; font-weight: 500;
   letter-spacing: 0.08em; text-transform: uppercase;
   color: var(--gold);
-  padding: 6px 14px;
+  padding: 6px 16px;
   border: 1px solid var(--gold-pale);
   background: var(--gold-wash);
 }
@@ -115,7 +115,7 @@ nav {
 }
 .hero-name .italic { font-style: italic; color: var(--gold); display: block; }
 .hero-role {
-  font-size: 13px; font-weight: 500;
+  font-size: 15px; font-weight: 500;
   letter-spacing: 0.06em; color: var(--muted);
   margin-top: 18px; margin-bottom: 32px;
   opacity: 0; animation: fadeUp 0.7s 0.45s forwards;
@@ -127,27 +127,27 @@ nav {
   opacity: 0; animation: fadeUp 0.6s 0.5s forwards;
 }
 .hero-bio {
-  color: var(--muted); font-size: 14px; line-height: 1.85;
+  color: var(--muted); font-size: 16px; line-height: 1.85;
   max-width: 480px; margin-bottom: 40px;
   opacity: 0; animation: fadeUp 0.7s 0.55s forwards;
 }
 .hero-btns {
-  display: flex; gap: 14px;
+  display: flex; gap: 16px;
   opacity: 0; animation: fadeUp 0.7s 0.7s forwards;
 }
 .btn-navy {
   background: var(--navy); color: #fff;
-  padding: 13px 30px; text-decoration: none;
-  font-size: 12px; font-weight: 600;
+  padding: 15px 30px; text-decoration: none;
+  font-size: 16px; font-weight: 600;
   letter-spacing: 0.1em; text-transform: uppercase;
   transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
-  box-shadow: 0 4px 14px rgba(27,42,74,0.18);
+  box-shadow: 0 4px 16px rgba(27,42,74,0.18);
 }
 .btn-navy:hover { background: var(--navy-mid); transform: translateY(-2px); box-shadow: 0 6px 20px rgba(27,42,74,0.25); }
 .btn-ghost {
   border: 1.5px solid var(--border-strong); color: var(--navy);
-  padding: 13px 30px; text-decoration: none;
-  font-size: 12px; font-weight: 600;
+  padding: 15px 30px; text-decoration: none;
+  font-size: 16px; font-weight: 600;
   letter-spacing: 0.1em; text-transform: uppercase;
   transition: border-color 0.2s, color 0.2s, transform 0.15s;
 }
@@ -191,7 +191,7 @@ nav {
   letter-spacing: 0.18em; text-transform: uppercase;
   color: rgba(255,255,255,0.35); margin-bottom: 4px;
 }
-.info-row-val { font-size: 14px; font-weight: 500; color: rgba(255,255,255,0.88); }
+.info-row-val { font-size: 16px; font-weight: 500; color: rgba(255,255,255,0.88); }
 .info-row-val.gold { color: var(--gold-light); }
 .stats-panel {
   display: grid; grid-template-columns: 1fr 1fr; gap: 1px;
@@ -231,7 +231,7 @@ section {
   background: var(--card);
   border: 1px solid var(--border);
   padding: 36px;
-  box-shadow: 0 2px 12px var(--shadow);
+  box-shadow: 0 2px 16px var(--shadow);
   transition: box-shadow 0.25s, transform 0.2s, border-color 0.25s;
   position: relative; overflow: hidden;
 }
@@ -261,9 +261,9 @@ section {
 .proj-ttl {
   font-family: 'Cormorant Garamond', serif;
   font-weight: 700; font-size: 22px;
-  letter-spacing: -0.3px; color: var(--navy); margin-bottom: 12px;
+  letter-spacing: -0.3px; color: var(--navy); margin-bottom: 16px;
 }
-.proj-dsc { color: var(--muted); font-size: 13px; line-height: 1.8; margin-bottom: 20px; }
+.proj-dsc { color: var(--muted); font-size: 15px; line-height: 1.8; margin-bottom: 20px; }
 .metrics-row { display: flex; gap: 28px; margin-bottom: 18px; }
 .m-val {
   font-family: 'Cormorant Garamond', serif;
@@ -279,20 +279,20 @@ section {
   color: var(--navy); text-decoration: none;
   transition: gap 0.2s, color 0.2s;
 }
-.plink:hover { gap: 12px; color: var(--gold); }
+.plink:hover { gap: 16px; color: var(--gold); }
 
 /* ── SKILLS ── */
 .skills-layout { display: grid; grid-template-columns: 260px 1fr; gap: 80px; }
-.skills-note { color: var(--muted); font-size: 13px; line-height: 1.9; }
-.skills-note p + p { margin-top: 14px; }
+.skills-note { color: var(--muted); font-size: 15px; line-height: 1.9; }
+.skills-note p + p { margin-top: 16px; }
 .skill-groups { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 28px; }
 .sg { background: var(--card); border: 1px solid var(--border); padding: 28px; box-shadow: 0 2px 8px var(--shadow); }
 .sg-head {
   font-size: 10px; font-weight: 700;
   letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold);
-  padding-bottom: 14px; border-bottom: 1px solid var(--border); margin-bottom: 18px;
+  padding-bottom: 16px; border-bottom: 1px solid var(--border); margin-bottom: 18px;
 }
-.sk-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; font-size: 12px; font-weight: 500; color: var(--navy); }
+.sk-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; font-size: 16px; font-weight: 500; color: var(--navy); }
 .sk-bar { width: 56px; height: 3px; background: var(--border); border-radius: 2px; overflow: hidden; }
 .sk-fill { height: 100%; background: linear-gradient(to right, var(--gold), var(--gold-light)); border-radius: 2px; }
 
@@ -319,10 +319,10 @@ section {
 .exp-company { font-family: 'Cormorant Garamond', serif; font-size: 20px; font-weight: 700; color: var(--gold-light); margin-bottom: 6px; }
 .exp-type { font-size: 10px; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.3); }
 .exp-body { padding: 32px 36px; }
-.exp-role { font-family: 'Cormorant Garamond', serif; font-size: 22px; font-weight: 700; color: var(--navy); margin-bottom: 12px; letter-spacing: -0.3px; }
-.exp-desc { color: var(--muted); font-size: 13px; line-height: 1.85; margin-bottom: 18px; max-width: 540px; }
+.exp-role { font-family: 'Cormorant Garamond', serif; font-size: 22px; font-weight: 700; color: var(--navy); margin-bottom: 16px; letter-spacing: -0.3px; }
+.exp-desc { color: var(--muted); font-size: 15px; line-height: 1.85; margin-bottom: 18px; max-width: 540px; }
 .exp-blist { display: flex; flex-direction: column; gap: 8px; }
-.exp-b { display: flex; align-items: flex-start; gap: 10px; font-size: 12px; color: var(--muted); line-height: 1.7; }
+.exp-b { display: flex; align-items: flex-start; gap: 10px; font-size: 16px; color: var(--muted); line-height: 1.7; }
 .exp-b::before { content: '◆'; color: var(--gold); font-size: 8px; flex-shrink: 0; margin-top: 5px; }
 
 /* ── EDUCATION ── */
@@ -334,23 +334,23 @@ section {
   box-shadow: 0 2px 8px var(--shadow); align-items: start;
 }
 .edu-deg { font-family: 'Cormorant Garamond', serif; font-size: 26px; font-weight: 700; color: var(--navy); letter-spacing: -0.5px; margin-bottom: 6px; }
-.edu-uni { font-size: 13px; font-weight: 600; color: var(--gold); margin-bottom: 4px; }
-.edu-det { font-size: 12px; color: var(--muted); }
-.edu-note { font-size: 12px; color: var(--muted); line-height: 1.8; margin-top: 14px; max-width: 500px; }
+.edu-uni { font-size: 15px; font-weight: 600; color: var(--gold); margin-bottom: 4px; }
+.edu-det { font-size: 16px; color: var(--muted); }
+.edu-note { font-size: 16px; color: var(--muted); line-height: 1.8; margin-top: 16px; max-width: 500px; }
 .courses-col { display: flex; flex-direction: column; gap: 6px; align-items: flex-end; }
 .courses-lbl { font-size: 10px; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; text-align: right; }
-.c-pill { font-size: 11px; font-weight: 500; padding: 5px 14px; border: 1px solid var(--border); color: var(--navy-light); background: var(--warm-white); }
+.c-pill { font-size: 11px; font-weight: 500; padding: 5px 16px; border: 1px solid var(--border); color: var(--navy-light); background: var(--warm-white); }
 
 /* ── CONTACT ── */
 .contact-wrap { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start; }
 .c-big { font-family: 'Cormorant Garamond', serif; font-size: clamp(30px, 3.5vw, 50px); font-weight: 700; line-height: 1.15; letter-spacing: -1px; color: var(--navy); margin-bottom: 20px; }
 .c-big em { font-style: italic; color: var(--gold); }
-.c-note { color: var(--muted); font-size: 13px; line-height: 1.9; margin-bottom: 32px; }
+.c-note { color: var(--muted); font-size: 15px; line-height: 1.9; margin-bottom: 32px; }
 .c-links { display: flex; flex-direction: column; }
 .c-link { display: flex; justify-content: space-between; align-items: center; padding: 16px 0; border-bottom: 1px solid var(--border); text-decoration: none; transition: padding-left 0.2s; }
 .c-link:hover { padding-left: 8px; }
 .c-link-lbl { font-size: 10px; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: var(--muted); }
-.c-link-val { font-size: 12px; font-weight: 500; color: var(--navy); }
+.c-link-val { font-size: 16px; font-weight: 500; color: var(--navy); }
 .c-arr { color: var(--gold); font-size: 16px; }
 
 /* ── FOOTER ── */
@@ -366,8 +366,24 @@ footer a { color: var(--gold); text-decoration: none; }
 /* ── ANIMATIONS ── */
 @keyframes fadeUp { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
 @keyframes fadeLeft { from { opacity: 0; transform: translateX(16px); } to { opacity: 1; transform: translateX(0); } }
-.reveal { opacity: 0; transform: translateY(22px); transition: opacity 0.6s ease, transform 0.6s ease; }
-.reveal.visible { opacity: 1; transform: none; }
+.reveal {
+  opacity: 0; transform: translateY(22px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (max-width: 768px) {
+  .reveal,
+  .reveal.visible {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}
+
 
 /* ── RESPONSIVE ── */
 @media (max-width: 960px) {
@@ -400,10 +416,10 @@ right: 0;
 top: calc(100% + 10px);
 background: var(--card);
 color: var(--navy);
-font-size: 12px;
+font-size: 16px;
 font-family: 'Outfit', sans-serif;
 line-height: 1.6;
-padding: 14px 18px;
+padding: 16px 18px;
 width: 280px;
 white-space: normal;
 z-index: 100;
@@ -446,7 +462,7 @@ transform: translateY(0);
   background: var(--card);
   border: 1px solid var(--border);
   padding: 32px;
-  box-shadow: 0 2px 12px var(--shadow);
+  box-shadow: 0 2px 16px var(--shadow);
   transition: box-shadow 0.25s, transform 0.2s;
   position: relative;
   overflow: hidden;
@@ -472,10 +488,10 @@ transform: translateY(0);
   font-family: 'Cormorant Garamond', serif;
   font-weight: 700; font-size: 20px;
   color: var(--navy); letter-spacing: -0.3px;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
 }
 .cert-desc {
-  color: var(--muted); font-size: 12px;
+  color: var(--muted); font-size: 16px;
   line-height: 1.8; margin-bottom: 18px;
 }
 .cert-meta {
@@ -605,7 +621,7 @@ transform: translateY(0);
           <div><div class="m-val">CI/CD</div><div class="m-lbl">Via GitHub Actions</div></div>
           <div><div class="m-val">A/B</div><div class="m-lbl">Pricing Tests</div></div>
         </div>
-        <p style="color:var(--muted);font-size:13px;line-height:1.85;">Built data models and dashboards in Power BI for product and category performance tracking. Implemented GitHub Actions for scheduled workflow automation and version-controlled pipeline deployment — demonstrating a full understanding of the analytics product lifecycle from raw data to executive dashboards.</p>
+        <p style="color:var(--muted);font-size:15px;line-height:1.85;">Built data models and dashboards in Power BI for product and category performance tracking. Implemented GitHub Actions for scheduled workflow automation and version-controlled pipeline deployment — demonstrating a full understanding of the analytics product lifecycle from raw data to executive dashboards.</p>
       </div>
     </div>
 
@@ -632,7 +648,7 @@ transform: translateY(0);
           <div><div class="m-val">6</div><div class="m-lbl">SQL Queries</div></div>
         </div>
       </div>
-      <p style="color:var(--muted);font-size:13px;line-height:1.85;">Designed and implemented a fully normalised (4NF) relational database for a B2B office supplies firm in Oracle SQL — covering entity modelling, ER diagrams, schema design, and complex query execution.</p>
+      <p style="color:var(--muted);font-size:15px;line-height:1.85;">Designed and implemented a fully normalised (4NF) relational database for a B2B office supplies firm in Oracle SQL — covering entity modelling, ER diagrams, schema design, and complex query execution.</p>
     </div>
 
 
@@ -660,7 +676,7 @@ transform: translateY(0);
         <div><div class="m-val">KNN</div><div class="m-lbl">Softmax Classifier</div></div>
         <div><div class="m-val">3</div><div class="m-lbl">Risk Segments</div></div>
       </div>
-      <p style="color:var(--muted);font-size:13px;line-height:1.85;">Developed an ML-driven Addiction Risk Index using KNN and Softmax classifiers, integrated with behavioral features. Created a comprehensive Tableau solution with 5 dashboards for visualizing user risk levels across various dimensions.</p>
+      <p style="color:var(--muted);font-size:15px;line-height:1.85;">Developed an ML-driven Addiction Risk Index using KNN and Softmax classifiers, integrated with behavioral features. Created a comprehensive Tableau solution with 5 dashboards for visualizing user risk levels across various dimensions.</p>
      </div>
   </div>
 </section>
@@ -795,7 +811,7 @@ transform: translateY(0);
       <a href="https://github.com/hrishikeshdixit" class="c-link" target="_blank">
         <span class="c-link-lbl">GitHub</span><span class="c-link-val">/hrishikeshdixit</span><span class="c-arr">↗</span>
       </a>
-      <a href="resume.pdf" class="c-link" target="_blank">
+      <a href="file:///D:/Users/thehr/OneDrive/Desktop/LOR%20Hrishikesh/Resumes/resume.pdf" class="c-link" target="_blank">
         <span class="c-link-lbl">Resume</span><span class="c-link-val">Download PDF</span><span class="c-arr">↓</span>
       </a>
     </div>
@@ -810,19 +826,27 @@ transform: translateY(0);
 
 <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
   function revealAll() {
-    document.querySelectorAll('.reveal').forEach(el => el.classList.add('visible'));
+    document.querySelectorAll('.reveal').forEach(function(el) {
+      el.classList.add('visible');
+      el.style.opacity = '1';
+      el.style.transform = 'none';
+    });
   }
-  if ('IntersectionObserver' in window) {
-    const els = document.querySelectorAll('.reveal');
-    const obs = new IntersectionObserver((entries) => {
-      entries.forEach((e, i) => {
+
+  // Force reveal on mobile immediately
+  if (window.innerWidth <= 768) {
+    revealAll();
+  } else if ('IntersectionObserver' in window) {
+    var els = document.querySelectorAll('.reveal');
+    var obs = new IntersectionObserver(function(entries) {
+      entries.forEach(function(e, i) {
         if (e.isIntersecting) {
-          setTimeout(() => e.target.classList.add('visible'), i * 90);
+          setTimeout(function() { e.target.classList.add('visible'); }, i * 90);
           obs.unobserve(e.target);
         }
       });
     }, { threshold: 0.05, rootMargin: '0px 0px -40px 0px' });
-    els.forEach(el => obs.observe(el));
+    els.forEach(function(el) { obs.observe(el); });
     setTimeout(revealAll, 800);
   } else {
     revealAll();
